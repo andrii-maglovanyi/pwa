@@ -1,6 +1,6 @@
 {
   "name": "White label configurable client application",
-  "short_name": "White Lable PWA",
+  "short_name": "White Label PWA",
   "theme_color": "#eeeeee",
   "background_color": "#ffffff",
   "display": "standalone",
