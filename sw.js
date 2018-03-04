@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**\n * @name CACHE_NAME\n *\n * @description\n * Service Worker static and dynamic cache names\n *\n * @type {Object}\n */\nconst CACHE_NAME = exports.CACHE_NAME = {\n  static: 'static-cache',\n  dynamic: 'dynamic-cache'\n};\n\n/**\n * @name SERVICE_WORKER_ASSET\n *\n * @description\n * Production ready Service Worker asset name\n *\n * @type {string}\n */\n\nconst SERVICE_WORKER_ASSET = exports.SERVICE_WORKER_ASSET = 'sw.js';\n/**\n * @name STATIC_ASSETS\n *\n * @description\n * Static assets to be cached on initial application load\n *\n * @type {Array<string>}\n */\nconst STATIC_ASSETS = exports.STATIC_ASSETS = ['./', './index.html', './index.js', `./${SERVICE_WORKER_ASSET}`];\n\n//# sourceURL=webpack:///./src/service-worker/constants.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**\n * @name CACHE_NAME\n *\n * @description\n * Service Worker static and dynamic cache names\n *\n * @type {Object}\n */\nconst CACHE_NAME = exports.CACHE_NAME = {\n  static: 'static-cache',\n  dynamic: 'dynamic-cache'\n};\n\n/**\n * @name SERVICE_WORKER_ASSET\n *\n * @description\n * Production ready Service Worker asset name\n *\n * @type {string}\n */\n\nconst SERVICE_WORKER_ASSET = exports.SERVICE_WORKER_ASSET = 'sw.js';\n/**\n * @name STATIC_ASSETS\n *\n * @description\n * Static assets to be cached on initial application load\n *\n * @type {Array<string>}\n */\nconst STATIC_ASSETS = exports.STATIC_ASSETS = ['./', './index.html', './index.js', './manifest.json', `./${SERVICE_WORKER_ASSET}`];\n\n//# sourceURL=webpack:///./src/service-worker/constants.js?");
 
 /***/ }),
 
