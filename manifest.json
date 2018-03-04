@@ -1,10 +1,9 @@
 {
-  "name": "White label configurable client application",
-  "short_name": "White Label PWA",
+  "name": "White label configurable PWA",
+  "short_name": "White Label",
   "theme_color": "#eeeeee",
   "background_color": "#900",
   "display": "standalone",
-  "Scope": "/",
   "start_url": "./",
   "icons": [
     {
@@ -47,6 +46,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "splash_pages": null
+  ]
 }
