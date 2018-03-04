@@ -1,8 +1,8 @@
 {
   "name": "White label configurable PWA",
   "short_name": "White Label",
-  "theme_color": "#eeeeee",
-  "background_color": "#900",
+  "theme_color": "#53afe3",
+  "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "./",
   "icons": [
